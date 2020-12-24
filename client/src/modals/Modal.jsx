@@ -19,7 +19,7 @@ box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 const Modal = ({ handleClose, show, children }) => {
   if(show) {
   return (
-    <ModalToDisplay>
+    <ModalToDisplay className="modal-overlay">
         {children}
     </ModalToDisplay>
   );

@@ -243,6 +243,7 @@ cursor: pointer;
 margin: 0px 0px 0px 40px;
 position: relative;
 top: -25px;
+width:100px;
 `;
 
 export const OverviewDurationClock = styled.img`height:22px; width: 22px; margin: 0px 4px 0px 15px;`

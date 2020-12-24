@@ -119,7 +119,7 @@ return (
               Address:
             </OverviewAddressText>
             <OverviewAddressText2>
-              525 S Winchester Blvd North San Jose, San Jose, CA 95128-2588 <OverviewMapSpan>Map</OverviewMapSpan>
+              525 S Winchester Blvd North San Jose, San Jose, CA 95128-2588 <OverviewMapSpan onClick={this.props.onClick}>Map</OverviewMapSpan>
             </OverviewAddressText2>
             </OverviewAddressDiv>
             <OverviewImproveDiv>

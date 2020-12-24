@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it works 1`] = `
+.c0 {
+  color: red;
+  border: 0.05em solid black;
+  cursor: pointer;
+}
+
+<button
+  className="c0"
+/>
+`;

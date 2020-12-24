@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 var leftArrow = 'https://myfecimages.s3-us-west-1.amazonaws.com/winchester+pictures/images/whiteArrowLeft.png';
 
-const Arrow = styled.img`
+export const Arrow = styled.img`
  width: 20px;
  height: 20px;
  position: relative;
@@ -13,7 +13,10 @@ const Arrow = styled.img`
  background-color: rgba(0, 0, 0, 0.5);
  padding: 15px;
 `;
-const ArrowDiv = styled.div`height: 5px;`;
+
+export const ArrowDiv = styled.div`height: 5px;`;
+
+ArrowDiv.displayName ='arrow';
 
 
 class LeftArrow extends React.Component {
